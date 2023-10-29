@@ -1,2 +1,1 @@
-# astro-with-tailwind
-template
+# Astro With Tailwind
