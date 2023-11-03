@@ -1,6 +1,6 @@
 # Astro With Tailwind Starter
 <div align="center">
 
-![cover-image](cover.png)
+![cover-image](header.png)
 
 </div>
