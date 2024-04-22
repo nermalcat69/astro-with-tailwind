@@ -1,0 +1,18 @@
+zerops:
+  - setup: astro
+    build:
+      base: nodejs@20
+      buildCommands:
+        - npm i
+        - npm run build
+      deploy:
+        - dist
+        - package.json
+        - node_modules
+      cache:
+        - node_modules
+        - package-lock.json
+    run:
+      start: npm start
+    envVariables:
+      HOST: 0.0.0.0
